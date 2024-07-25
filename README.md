@@ -1,16 +1,11 @@
-# bhagavat_gita
+<h1 align="center">🔥Departure🔥</h1><br><br>
+<h1 align="center">🔥श्रीमर्द भगवद् गीता🔥</h1>
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div align = "center">
+  <img src="" width=21%,heigth=35%>
+   <img src="" width=21%,heigth=35%>
+  <video src=""></video>
+</div>
+  <div align = "center">
+<a  href="https://github.com/harshdusane2103/Adv_Flutter_Ch_First/tree/master/lib/Stepper">👉 Go To Dart File 👈</a>
+</div>

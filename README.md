@@ -3,7 +3,7 @@
 <h1>
 Description   : </h1>
 <P>
-  The Bhagavad Gita, part of the Indian epic Mahabharata, is a 700-verse Hindu scripture that takes the form of a conversation between Prince Arjuna and Lord Krishna, who serves as his charioteer. Set on the battlefield of Kurukshetra, it addresses Arjuna's moral and existential dilemmas about duty, righteousness, and the nature of life and death. Through this dialogue, Krishna imparts spiritual wisdom and guidance, emphasizing the importance of selfless action, devotion, and understanding one's true self.
+  The Bhagavad Gita, part of the Indian epic Mahabharata, is a 700-verse Hindu scripture that takes the form of a conversation between Prince Arjuna and Lord Krishna, who serves as his charioteer. Set on the battlefield of Kurukshetra, it addresses Arjuna's moral and existential dilemmas about duty, righteousness, and the nature of life and death. Through this dialogue, Krishna imparts spiritual wisdom and guidance, emphasizing the importance of selfless action, devotion, and understanding one's true self.<br><br>
    In This App use of JSON DATA ,Provider,ModalClass,,etc. This App have also translate in more Language.It user Friendly App to help to User .
 </P>
 

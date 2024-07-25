@@ -5,6 +5,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 
 class Gitaprovider extends ChangeNotifier {
+
+  bool isDark=false;
+  void ChangeTheme()
+  {
+    isDark=!isDark;
+    notifyListeners();
+  }
+
   List< GitaModal> Gitalist = [];
 
   Future<void> jsonParsing() async {
@@ -15,6 +23,5 @@ class Gitaprovider extends ChangeNotifier {
   }
 
   Gitaprovider() {
-    jsonParsing();
-  }
+    jsonParsing();}
 }

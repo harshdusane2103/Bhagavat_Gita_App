@@ -5,9 +5,7 @@ import 'package:bhagavat_gita/View/detail_Page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
 import '../Utils/golbal.dart';
-
 class Homescreen extends StatelessWidget {
   const Homescreen({super.key});
 
@@ -23,10 +21,7 @@ class Homescreen extends StatelessWidget {
     DetailProvider detailProviderfalse = Provider.of(context, listen: false);
 
     return Scaffold(
-      // backgroundColor: Colors.white,
       appBar: AppBar(
-        // backgroundColor: Colors.amber.shade50,
-
         leading: Switch(
           value: gitaprovidertrue.isDark,
           onChanged: (value) {
@@ -67,7 +62,7 @@ class Homescreen extends StatelessWidget {
             SizedBox(height: 10),
             Container(
               height: h * 0.30,
-              width: w*0.90,
+              width: w * 0.90,
               decoration: BoxDecoration(
                 color: Colors.red,
                 borderRadius: BorderRadius.circular(10),
@@ -100,7 +95,8 @@ class Homescreen extends StatelessWidget {
                         leading: Column(
                           children: [
                             Text(
-                              (detailProvidertrue.selectedLanguage == 'Sanskrit')
+                              (detailProvidertrue.selectedLanguage ==
+                                      'Sanskrit')
                                   ? translate[0]
                                   : (detailProvidertrue.selectedLanguage ==
                                           'Hindi')
@@ -120,9 +116,11 @@ class Homescreen extends StatelessWidget {
                         ),
                         title: Text(
                           (detailProvidertrue.selectedLanguage == 'Sanskrit')
-                              ? gitaprovider.Gitalist[index].chapterName.sanskrit
+                              ? gitaprovider
+                                  .Gitalist[index].chapterName.sanskrit
                               : (detailProvidertrue.selectedLanguage == 'Hindi')
-                                  ? gitaprovider.Gitalist[index].chapterName.hindi
+                                  ? gitaprovider
+                                      .Gitalist[index].chapterName.hindi
                                   : (detailProvidertrue.selectedLanguage ==
                                           'English')
                                       ? gitaprovider
@@ -137,12 +135,14 @@ class Homescreen extends StatelessWidget {
                         subtitle: Row(
                           children: [
                             Icon(Icons.list),
-                            Text('${gitaprovider.Gitalist[index].verses.length}'),
+                            Text(
+                                '${gitaprovider.Gitalist[index].verses.length}'),
                             SizedBox(
                               width: 4,
                             ),
                             Text(
-                              (detailProvidertrue.selectedLanguage == 'Sanskrit')
+                              (detailProvidertrue.selectedLanguage ==
+                                      'Sanskrit')
                                   ? Shlok[0]
                                   : (detailProvidertrue.selectedLanguage ==
                                           'Hindi')

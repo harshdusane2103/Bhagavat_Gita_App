@@ -103,7 +103,8 @@ class SingleScreen extends StatelessWidget {
                                         ? gitaprovider
                                             .Gitalist[selectedIndex]
                                             .verses[singleShlokIndex]
-                                            .language.english
+                                            .language
+                                            .english
                                         : gitaprovider
                                             .Gitalist[selectedIndex]
                                             .verses[singleShlokIndex]
